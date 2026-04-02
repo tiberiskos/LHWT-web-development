@@ -1,0 +1,41 @@
+body {
+    background-color: #324f7b;
+        font-family: calibri;
+        color: #fff;
+        line-height: 1.5;
+        font-size: 1.25rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6.5rem;
+    line-height: 1.1;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+main {
+    margin-block: 60px;
+
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    font-size: 1.6rem;
+}
+
+section {
+    text-align: end;
+    line-height: 1.2;
+    margin-block: 75px;
+}
