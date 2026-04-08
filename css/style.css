@@ -26,6 +26,19 @@ video {
     margin-bottom: 20px;
 }
 
+a {
+    color: #EB4827;
+    font-weight: bold;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+    color: #ee7b64;
+}
+
+
 .primary-navigation {
     position: sticky;
     top:0;
@@ -68,11 +81,27 @@ h3 {
 }
 
 h4 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
 p strong{
     color: #fff;
+}
+
+main {
+    margin-block: 60px;
+
+}
+
+main p a {
+    font-size: clamp(1.3rem, 2vw, 1.8rem);
+    font-weight: normal;
+}
+main p a i {
+    font-size: clamp(4rem, 6vw, 6rem);
+    color: #fff;    
+    display: block;
+    margin: 0 auto;
 }
 
 .orange-box {
@@ -142,11 +171,13 @@ p strong{
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: center;
     gap: 40px;
 }
 
 .two-columns ul i {
     font-size: clamp(3.5rem, 5vw, 5rem);
+    margin: 10px;
 }
 
 .two-columns a {
@@ -230,6 +261,23 @@ p strong{
     text-align: center;
 }
 
+.donate-button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.donate-button a {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: #32747B;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: clamp(2rem, 3vw, 3rem);
+}
+
 .left-history {
     margin: 5px 0px;
 }
@@ -240,6 +288,23 @@ p strong{
 
 .right-history {
     margin: 10px 0px
+}
+
+.get-involved {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-involved a {
+    font-weight: bold;
+    color: #fff;
+    font-size: clamp(1.15rem, 2vw, 1.8rem);
+}
+
+.two-columns .orange-box {
+    height: 100%;
+    box-sizing: border-box;
 }
 
 iframe {
@@ -260,31 +325,10 @@ ul i{
     font-size: clamp(4rem, 6vw, 6rem);
     color: #fff;
 }
-a {
-    color: #EB4827;
-    font-weight: bold;
-    font-size: clamp(1.2rem, 2vw, 2rem);
-    text-decoration: none;
-}
-
-a:hover,
-a:focus-visible {
-    color: #ee7b64;
-}
 
 i:hover, 
 i:focus-visible {
     color: #ee7b64;
-}
-
-main {
-    margin-block: 60px;
-
-}
-
-main p a {
-    font-size: clamp(1.3rem, 2vw, 1.8rem);
-    font-weight: normal;
 }
 
 .grey-box a {
